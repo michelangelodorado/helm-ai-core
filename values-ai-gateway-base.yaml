@@ -37,7 +37,7 @@ license:
   # -- Name of the secret that contains the license data
   secretName: f5-license
   # -- Key of the secret which contains the license data
-  secretKey: license
+  secretKey: token
 
 
 # Configuration for the AI Gateway core (aigw) application
