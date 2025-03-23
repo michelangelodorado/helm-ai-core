@@ -1,0 +1,10 @@
+
+kubectl create ns ai-gateway
+
+** create f5 registry secret and f5-license ****
+
+helm -n ai-gateway install aigw -f values-ai-gateway.yaml .
+
+helm -n ai-gateway upgrade aigw -f values-ai-gateway.yaml .
+
+helm -n ai-gateway delete aigw
